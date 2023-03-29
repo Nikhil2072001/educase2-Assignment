@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.main-conainer{
+    /* border: 0.5px solid gray; */
+    /* box-shadow: 1px 1px 1px 0.5px gray; */
+    margin: 5vh;
+    
+    height: 90vh;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-end;
+    gap: 20px;
+    align-items: center;
+    /* border: 2px solid red; */
+    padding: 20px;
+}
+button{
+    width: 20vw;
+    height: 5vh;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+.create_account{
+background-color: rgb(99, 55, 193);
+color: white;
+}
+.login{
+    background:rgb(189, 171, 205);
+}
+@media only screen and (max-width: 500px) {
+    button{
+        width: 60vw;
+    }
+}
+
+/* for indexhtml 2 file */
+.main-container2{
+    width: fit-content;
+    height: 80vh;
+    margin: auto;
+    margin-top: 10vh;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    /* justify-content: center; */
+    gap: 10px;
+    /* position: relative; */
+}
+.two{
+   margin-left: 22px;
+}
+.para2{
+    color: grey;
+}
+.btn2{
+    width: 200px;
+    
+    background: rgb(185, 178, 178);
+    color: white;
+}
+.input {
+    position: relative;
+  }
+  
+  input:not([class='rad3']) {
+    border: 1px solid gray;
+    border-radius: 6px;
+    position: relative;
+    right: 14ex;
+    width: 200px;
+    margin: 10px;
+    line-height: 6ex;
+    height: 35px;
+  }
+  
+  label {
+    position: relative;
+    top: -2.8ex;
+    z-index: 1;
+    left: 7ex;
+    background-color: white;
+    padding: 0 5px;
+    color: rgb(142, 56, 142);
+  }
+
+  /* this is for the html 3 file */
+
+  .main-conatainer3{
+    width: fit-content;
+    height: 80vh;
+    margin: auto;
+    margin-top: 10vh;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 10px;
+    overflow: hidden;
+
+  }
+  .rad3{
+    margin-left: 30px;
+  }
+  .h13{
+    margin: 10px 30px;
+  }
+  .container32{
+    width: fit-content;
+  }
+  .btn3{
+    width: 90%;
+    margin: 5%;
+    background-color: rgb(142, 56, 142);
+    color: white;
+  }
+  .container40{
+    width: 60vw;
+    height: 80vh;
+    margin: auto;
+    margin-top: 10vh;
+    /* border: 2px solid red; */
+    
+    gap: 10px;
+  }
+  .main-container-4{
+    width: fit-content;
+    height: 80vh;
+    margin: auto;
+    
+    /* border: 2px solid red; */
+    display: flex;
+    flex-flow: column wrap;
+    align-items: centre;
+    justify-content: centre;
+    gap: 10px;
+  }
+  img{
+    width: 20vw;
+    height: auto;
+    border-radius: 200%;
+}
+.container41{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+.con411{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.container42{
+    width: 80%;
+    margin: auto;
+}
+.header{
+margin: 30px 10vw;
+}
+
+
+
